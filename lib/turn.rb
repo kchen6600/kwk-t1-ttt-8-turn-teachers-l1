@@ -40,6 +40,7 @@ def turn(board)
       puts "Please enter 1-9:"
       input = gets.chomp
       ind = input_to_index(input)
+      puts board
     end
   end
 end
